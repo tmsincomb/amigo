@@ -24,3 +24,4 @@ def amigo(queries, species='"Homo sapiens"', verbose=True):
         if verbose: print(f'=== query - [{query}] - complete ===')
     df = pd.concat(dfs)
     return df
+
